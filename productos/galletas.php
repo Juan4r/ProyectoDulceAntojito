@@ -14,6 +14,8 @@
 <body>
      
  <?php include'../navbar.php'; ?>
+ <h1>ESTO NOOOOOOOOO</h1>
+ <H2>ESTO NOOOOOOOO SEG </H2>
  
  <section class="container text-center my-5">
     <h2 class="mb-4 fw-bold text-uppercase text-dark">Productos</h2>
