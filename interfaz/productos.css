@@ -1,0 +1,55 @@
+  /* navbar --------------productos*/
+   .boton-producto {
+      transition: all 0.3s ease-in-out;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    }
+
+    .boton-producto:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+      filter: brightness(1.1);
+    }
+h1{
+  color: aqua;
+}
+  .producto {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 2rem;
+      margin-bottom: 4rem;
+    }
+    .producto.reverso {
+      flex-direction: row-reverse;
+    }
+    .producto img {
+      width: 100%;
+      max-width: 350px;
+      border-radius: 10px;
+    }
+    .producto-info h5 {
+      font-weight: bold;
+      color: #5c2b2b;
+    }
+    .precio {
+      font-weight: bold;
+      font-size: 1.25rem;
+      color: #a52a2a;
+    }
+   .btn-reservar {
+  background-color: #ea799f;
+  border: none;
+  font-weight: bold;
+  color: #fff;
+  transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
+
+.btn-reservar:hover {
+  transform: scale(1.05); /* Zoom suave */
+  background-color: #000000; /* Más oscuro al pasar el mouse */
+}
+    .modal-header img {
+      max-width: 100px;
+      margin: 0 auto;
+      display: block;
+    }

@@ -1,0 +1,236 @@
+/*nav bar y carrusel style*/
+:root {
+  --bg-color: #fdc292; /* Color de fondo */
+  --primary-color: #d95b84; /* Color primario */
+  --text-color: #333; /* Color del texto */
+  --card-bg: #ffffff; /* Fondo de las tarjetas */
+  --border-color: #e0e0e0; /* Color del borde */
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  
+}
+
+
+/* Navbar */
+.navbar {
+  background-color: #b98080; /* Color rosado pastel */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  color: white;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  margin: 0 12px;
+  font-weight: bold;
+  background: rgba(255,255,255,0.2);
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+.menu a:hover {
+  background: rgba(255, 255, 255, 0.4);
+  color: rgb(0, 0, 0);
+}
+
+.acciones {
+  display: flex;
+  align-items: center;
+}
+
+.busqueda {
+  padding: 6px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 12px;
+  outline: none;
+}
+
+.icono {
+  font-size: 20px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+
+
+/*carrsel*/
+
+ .carrusel {
+      position: relative;
+      height: 20px;
+      width: 200px;
+      background: #f2f2f2;
+      overflow: hidden;
+      margin: 0 auto;
+    }
+
+    .slide {
+      display: none;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      padding: 30px;
+      gap: 30px;
+    }
+
+    .slide.active {
+      display: flex;
+    }
+
+    .slide img {
+      width: 400px;
+      height: 400px;
+      border-radius: 10px;
+    }
+
+    .texto-carrusel {
+      max-width: 400px;
+    }
+
+    .texto-carrusel h2 {
+      color: #7a5a7a;
+      font-size: 32px;
+      margin-bottom: 10px;
+    }
+
+    .texto-carrusel p {
+      font-size: 14px;
+      margin-bottom: 15px;
+    }
+
+    .texto-carrusel button {
+      background-color: #f0e6e6;
+      border: none;
+      padding: 8px 15px;
+      cursor: pointer;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+
+    .texto-carrusel button:hover {
+      background-color: #d4bcbc;
+    }
+
+    /* Paginación */
+    .paginacion {
+      text-align: center;
+      margin: 10px 0;
+    }
+
+    .punto-paginacion {
+      display: inline-block;
+      width: 14px;
+      height: 14px;
+      background: #d8b1b1;
+      border-radius: 50%;
+      margin: 0 6px;
+      cursor: pointer;
+      opacity: 0.5;
+      transition: opacity 0.3s;
+    }
+
+    .punto-paginacion.active {
+      opacity: 1;
+      background-color: #a76969;
+    }
+
+ /* lista de lo mas comprado--------------------------------------------------------------------------*/
+
+    .img-ajustada {
+    height: 200px;
+    object-fit: cover;
+    width: 100%;
+  }
+
+  .producto-card {
+    position: relative;
+    overflow: hidden;
+    border: none;
+    border-radius: 8px;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+  }
+
+  .producto-card:hover {
+    box-shadow: 0 0 20px rgba(224, 78, 122, 0.7), 0 8px 20px rgba(0, 0, 0, 0.15);
+    transform: translateY(-5px);
+  }
+
+  .nombre-producto {
+    background-color: rgba(180, 52, 91, 0.7);
+    color: white;
+    text-align: center;
+    padding: 8px;
+    font-weight: 600;
+    font-size: 1rem;
+  }
+
+  @media (max-width: 576px) {
+    .img-ajustada {
+      height: 180px;
+    }
+  }
+
+
+
+
+  /* Footer style........................*/
+   #footer-dulceantojito {
+    background-color: #a76b7b;
+    color: white;
+  }
+
+  #footer-dulceantojito .footer-titulo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  #footer-dulceantojito .footer-subtitulo {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+
+  #footer-dulceantojito .footer-texto {
+    font-size: 0.95rem;
+    line-height: 1.6;
+  }
+
+  #footer-dulceantojito .footer-link {
+    color: #f8e8ec;
+    text-decoration: none;
+    font-size: 0.95rem;
+  }
+
+  #footer-dulceantojito .footer-link:hover {
+    text-decoration: underline;
+  }
+
+  #footer-dulceantojito .footer-linea {
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    margin: 20px 0;
+  }
+
+  #footer-dulceantojito .footer-copy {
+    color: hsl(343, 50%, 91%);
+  }
+
+
+
+
+
+
+ 
