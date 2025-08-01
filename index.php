@@ -17,7 +17,9 @@
 <header>
     <?php include 'navbar.php'; ?>
 </header>
-
+<h1>HOLAAAAA ETO ES LO QUE CORREGI</h1>
+<h1>HOLAAAAA ETO ES LO QUE CORREGI</h1>
+<h1>HOLAAAAA ETO ES LO QUE CORREGI</h1>
     <!--carrusel-->
   <section class="carrusel">
       <div class="slide active">
